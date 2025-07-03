@@ -31,6 +31,6 @@ def generate_synthetic_sensor_data(n_samples=100, seed=42):
     df = pd.DataFrame(data, columns=["gsr", "temperature", "bpm", "label"])
     return df
 
-# Contoh penggunaan:
+# Generated
 df = generate_synthetic_sensor_data(n_samples=100, seed=42)
 df.to_csv("synthetic_sensor_data.csv", index=False)
